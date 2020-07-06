@@ -1,0 +1,119 @@
+header {
+    font-family: sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-content: center;
+    line-height: 40px;
+    margin: 2px;
+}
+
+header :hover {
+    text-decoration: underline;
+}
+
+header .left {
+    margin-left: 15px;
+}
+
+header .right {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#appsgrid {
+    height: 16px;
+    opacity: 0.5;
+    margin-top: 11px;
+}
+
+#appsgrid:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#profpic {
+    border-radius: 50%;
+    height: 32px;
+    margin-top: 5px;
+}
+
+main {
+    width: 100%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+#googlelogo {
+    width: 272px;
+    margin-top: 148px;
+}
+
+#searchbar {
+    width: 486px;
+    border-radius: 30px;
+    padding: 15px 15px 15px 35px;
+    border: 1px solid #dfe1e5;
+    margin: 27px;
+}
+
+#searchbar:hover {
+    box-shadow: 0px 0px 5px #b6b6b9;
+}
+
+input:focus {
+    outline:none;
+}
+
+button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: transparent;
+    margin: 0px 8px;
+    color: #5F6368;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    border: 1px solid #929496;
+    color: black;
+    background-color:  #f2f2f2;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 1px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+footer :hover {
+    text-decoration: underline;
+}
+
+footer .left {
+    margin-left: 27px;
+}
+
+footer .right {
+    margin-right: 27px;
+}
